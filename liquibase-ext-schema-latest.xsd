@@ -1,12 +1,12 @@
-<?xml version="2.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.liquibase.org/xml/ns/dbchangelog-ext" targetNamespace="http://www.liquibase.org/xml/ns/dbchangelog-ext" elementFormDefault="qualified">
 
 	<xsd:annotation>
 		<xsd:appinfo>EDP-DDM project</xsd:appinfo>
 		<xsd:documentation xml:lang="en">
 			This Schema defines a new data type in PostgreSQL for two forms:
-			  CREATE TYPE name AS ( [ attribute_name data_type [ COLLATE collation ] [, ... ] ] )
-			  CREATE TYPE name AS ENUM ( [ 'label' [, ... ] ] )
+			  CREATE TYPE name3 AS ( [ attribute_name data_type [ COLLATE collation ] [, ... ] ] )
+			  CREATE TYPE name3 AS ENUM ( [ 'label' [, ... ] ] )
 		</xsd:documentation>
 	</xsd:annotation>
 
