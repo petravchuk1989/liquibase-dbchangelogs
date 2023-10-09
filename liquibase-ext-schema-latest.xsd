@@ -5,8 +5,8 @@
 		<xsd:appinfo>EDP-DDM project</xsd:appinfo>
 		<xsd:documentation xml:lang="en">
 			This Schema defines a new data type in PostgreSQL for two forms:
-			  CREATE TYPE name3 AS ( [ attribute_name data_type [ COLLATE collation ] [, ... ] ] )
-			  CREATE TYPE name3 AS ENUM ( [ 'label' [, ... ] ] )
+			  CREATE TYPE name AS ( [ attribute_name data_type [ COLLATE collation ] [, ... ] ] )
+			  CREATE TYPE name AS ENUM ( [ 'label' [, ... ] ] )
 		</xsd:documentation>
 	</xsd:annotation>
 
